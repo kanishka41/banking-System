@@ -8,7 +8,7 @@ public class BankingApp {
 		
 		final String url = "jdbc:mysql://localhost:3306/Banking_system";
 		final String user1 = "root";
-		final String password = "12345";
+		final String password = "#{password}";
 		String email;
 		String accountNumber;
 		
